@@ -24,12 +24,12 @@
     <a href="#home"><img class="pt-2 px-2" src="./images/ball.png" alt="ball"></a>
     <div class="container mx-auto">
     <div class="relative  inline-flex">
-     <button @click="open = !open" class="flex items-start "><img class="pt-1 pr-2" src="@/images/arrow.png" alt="arrow"></button>
+     <button @click="open = !open" class="flex items-start "><img class="pt-1 pr-6" src="@/images/arrow.png" alt="arrow"></button>
   
      <div v-if="open" class="rounded-lg absolute mt-8 bg-blue-drop divider-y p-4 text-left grid grig-rows-2 -ml-24 divider-y">
-     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="http://b.haxi666.vip">English</a>
-     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="http://a.haxi666.vip">Chinese</a>
-     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="http://c.haxi666.vip">TiếngViệt</a>
+     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="https://z-krypto.netlify.app/">English</a>
+     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="">DesignA</a>
+     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="">DesignB</a>
 
   </div>
 
