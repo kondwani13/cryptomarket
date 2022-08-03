@@ -11,18 +11,17 @@
   </div>
   <div class="lg:pl-52 inline-flex">
     <button @click="scrollToAnchorPoint('home')" class=" text-lg no-underline text-indigo-300 hover:text-white px-4">Home</button>
-    <button @click="scrollToAnchorPoint('rul')" class="text-lg no-underline text-indigo-300 hover:text-white px-4 ">Rules</button>
     <button @click="scrollToAnchorPoint('process')" class="text-lg no-underline text-indigo-300 hover:text-white px-4">Process</button>
     <button @click="scrollToAnchorPoint('advan')" class="text-lg no-underline text-indigo-300 hover:text-white px-4">Advantages</button>
     <button @click="scrollToAnchorPoint('faq')" class="text-lg no-underline text-indigo-300 hover:text-white px-4">Faq</button>
     <div class="hidden md:block block">
     <button @click.prevent="showModal" class="text-lg no-underline text-indigo-300 hover:text-white px-4  ">personal center</button>
-     </div>
+    </div>
 	
 		
 	
     <div class="inline-flex">
-    <a href="/one"><img class="" src="./images/ball.png" alt="ball"></a>
+    <a href="/one"><img class="pt-2 px-1" src="./images/ball.png" alt="ball"></a>
     <div class="container mx-auto">
     <div class="relative  inline-flex">
      <button @click="open = !open" class="flex items-start "><img class="pt-1" src="@/images/arrow.png" alt="arrow"></button>
@@ -60,7 +59,7 @@
     <div ref="rul" class="lg:pl-60 lg:pr-8 pl-4 bg-blue-back1 w-full inline-flex pb-4 pt-6"> 
 
       <img class="px-2" src="./images/bar.png" alt="bar">
-      <h4 class="font-bold text-5xl text-white lg:px-2 ">Rules</h4>
+      <h4 class="font-bold lg:text-5xl text-3x1 text-white lg:px-2 ">Rules</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 pl-4 ">/</h4>
       <img class="pl-1 pt-2" src="./images/RULES.png" alt="rules">
     </div>
@@ -137,7 +136,7 @@
       <h4 class="font-regular text-2xl text-blue-slash lg:pl-12 pl-4 ">/</h4>
       <p class="pl-1 pt-2 font-base text-base text-white">Process for the new hand</p>
  </div>
-   <div class="lg:pl-60 lg:pr-16 pl-4 bg-blue-proc w-full inline-flex pb-4 pt-10 space-x-3 lg:space-x-20 py-8 ">
+   <div class="scrollbar-hide lg:pl-60 lg:pr-16 pl-4 bg-blue-proc w-full inline-flex pb-4 pt-10 space-x-3 lg:space-x-20 py-8 ">
   
       <div class="rounded-lg bg-blue-pross p-6 hover:bg-blue-pross1 focus:bg-blue-pross1 hover:shadow">
       <div class="rounded-tl-lg text-white text-lg p-3 lg:p-8 text-center">
@@ -169,7 +168,7 @@
       <div ref="advan" class="lg:pl-64 pl-4 bg-blue-imb w-full inline-flex pb-4 pt-10"> 
 
       <img class="px-2" src="./images/bar.png" alt="bar">
-      <h4 class="font-bold lg:text-5xl text-4xl text-white lg:px-2 ">Adventure</h4>
+      <h4 class="font-bold lg:text-5xl text-3xl text-white lg:px-2 ">Adventure</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 lg:pl-4 pl-2">/</h4>
       <img class="pl-1 pt-2" src="./images/adven.png" alt="adven">
 
@@ -182,14 +181,14 @@
       <div class="flex items-center justify-center p-12 bg-blue-imb w-full inline-flex  space-x-3 lg:space-x-64  ">
       
 
-      <div class=""><img class="pl-10" src="@/images/sym1.png" alt="sym1">
+      <div class=""><img class="pl-6" src="@/images/sym1.png" alt="sym1">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Fair and Transparent</h4>
       
       </div>
-      <div class=""><img class="pl-10" src="@/images/sym2.png" alt="sym2">
+      <div class=""><img class="pl-6" src="@/images/sym2.png" alt="sym2">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Safe and Reliable</h4>
       </div>
-      <div class=""><img class="pl-10" src="@/images/sym3.png" alt="sym3">
+      <div class=""><img class="pl-6" src="@/images/sym3.png" alt="sym3">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Easiest and Fast</h4>
       </div>
       

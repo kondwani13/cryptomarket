@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     darkMode: false, // or 'media' or 'class'
@@ -42,5 +43,23 @@ module.exports = {
     variants: {
       extend: {},
     },
-    plugins: [],
+    plugins: [
+      plugin(function ({ addUtilities }) {
+        addUtilities({
+          '.scrollbar-hide': {
+            /* IE and Edge */
+            '-ms-overflow-style': 'none',
+  
+            /* Firefox */
+            'scrollbar-width': 'none',
+  
+            /* Safari and Chrome */
+            '&::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }
+        }
+        )
+      })
+    ],
 }
