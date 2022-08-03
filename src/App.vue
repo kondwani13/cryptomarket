@@ -166,7 +166,7 @@
       <img class="px-2" src="./images/bar.png" alt="bar">
       <h4 class="font-bold lg:text-5xl text-3xl lg:pt-0 pt-3 text-white lg:px-2 ">Adventure</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 lg:pl-4 pl-2">/</h4>
-      <img class="pl-1 pt-2" src="./images/adven.png" alt="adven">
+      <img class=" pt-2" src="./images/adven.png" alt="adven">
 
       
     </div>
@@ -177,14 +177,14 @@
       <div class="flex items-center justify-center p-12 bg-blue-imb w-full inline-flex  space-x-3 lg:space-x-64  ">
       
 
-      <div class=""><img class="pl-6" src="@/images/sym1.png" alt="sym1">
+      <div class=""><img class="pl-4" src="@/images/sym1.png" alt="sym1">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Fair and Transparent</h4>
       
       </div>
-      <div class=""><img class="pl-6" src="@/images/sym2.png" alt="sym2">
+      <div class=""><img class="pl-4" src="@/images/sym2.png" alt="sym2">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Safe and Reliable</h4>
       </div>
-      <div class=""><img class="pl-6" src="@/images/sym3.png" alt="sym3">
+      <div class=""><img class="pl-4" src="@/images/sym3.png" alt="sym3">
       <h4 class="text-white lg:text-2xl text-sm text-semibold py-6 text-center">Easiest and Fast</h4>
       </div>
       
