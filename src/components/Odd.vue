@@ -4,7 +4,7 @@
 
 <div class="bg-blue-get lg:rounded-l-lg rounded-t-lg text-center px-8 lg:-mb-32 -mb-14 z-20 lg:py-4 pt-4 pl-32">
 <img class=" lg:px-8 pl-4 " src="@/images/qr.png" alt="qr">
-<h4 class="text-white py-4 lg:px-4 -pl-5 text-sm">TRC20/TRX wallet address</h4>
+<h4 class="text-white py-4 lg:px-4 pr-28 text-sm">TRC20/TRX wallet address</h4>
 </div>
 <div class="bg-blue-gri items-center py-6 -mb-14 lg:-mb-32 ">
 <p class="text-white lg:text-lg text-sm lg:py-8 text-center  ">Transfers must be made using a decentralized wallet <br>
