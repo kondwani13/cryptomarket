@@ -191,7 +191,7 @@
       </div>
       
       </div>
-      <div class="lg:hidden bg-blue-imb"><component :is="Live" /></div>
+      <div class="lg:hidden bg-blue-imb p-6"><component :is="Live" /></div>
 
       <div class="flex items-center justify-center bg-blue-imb pb-8">
       <div class=" grid lg:grid-cols-3 lg:grid-flow-row bg-blue-imb lg:space-x-8 ">
