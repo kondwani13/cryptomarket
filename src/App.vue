@@ -27,9 +27,9 @@
      <button @click="open = !open" class="flex items-start "><img class="pt-1 pr-3" src="@/images/arrow.png" alt="arrow"></button>
   
      <div v-if="open" class="rounded-lg absolute mt-8 bg-blue-drop divider-y p-4 text-left grid grig-rows-2 -ml-24 divider-y">
-     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="https://z-krypto.netlify.app/">English</a>
-     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="">DesignA</a>
+     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="https://z-krypto.netlify.app/">DesignA</a>
      <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="">DesignB</a>
+     <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="">DesignC</a>
 
   </div>
 
