@@ -163,7 +163,7 @@
 
       <div ref="advan" class="lg:pl-64 pl-4 bg-blue-imb w-full inline-flex pb-4 pt-10"> 
 
-      <img class="px-2" src="./images/bar.png" alt="bar">
+      <img class="px-1" src="./images/bar.png" alt="bar">
       <h4 class="font-bold lg:text-5xl text-3xl lg:pt-0 pt-3 text-white lg:px-2 ">Adventure</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 lg:pl-4 pl-2">/</h4>
       <img class=" pt-2" src="./images/adven.png" alt="adven">
