@@ -3,15 +3,15 @@
       <div class="grid lg:grid-cols-3 grid-rows-3  items-center  ">
 
 <div class="bg-blue-get lg:rounded-l-lg rounded-t-lg px-8 lg:-mb-32 -mb-14 z-20 lg:py-4 pt-4 pl-32">
-<img class=" px-8" src="@/images/qr.png" alt="qr">
-<h4 class="text-white py-4 px-4 text-sm">TRC20/TRX wallet address</h4>
+<img class=" lg:px-8 pl-6 pr-8" src="@/images/qr.png" alt="qr">
+<h4 class="text-white py-4 lg:px-4 pl-6 pr-8 text-sm">TRC20/TRX wallet address</h4>
 </div>
 <div class="bg-blue-gri items-center py-6 -mb-14 lg:-mb-32 ">
 <p class="text-white lg:text-lg text-sm lg:py-8 text-center  ">Transfers must be made using a decentralized wallet <br>
    {{text}}</p>
  </div>
 <div class="rounded-b-lg lg:rounded-r-lg bg-blue-gri lg:-mt-0 -mt-16 lg:pl-28 pl-40 lg:py-7 py-2 lg:-mb-32 ">  
-<button @click="copy" class="hover:animate-ping rounded-lg bg-blue-buton lg:text-4xl text-2xl font-bold text-blue-butt lg:pl-8 lg:p-12 py-4 px-6">copy</button>
+<button @click="copy" class="hover:animate-ping rounded-lg bg-blue-buton lg:text-4xl text-2xl font-bold text-blue-butt lg:pl-8 lg:p-12 py-4 lg:px-6 pl-6 pr-8">copy</button>
 
 </div>
 </div>

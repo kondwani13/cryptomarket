@@ -21,10 +21,10 @@
 		
 	
     <div class="inline-flex">
-    <a href="/one"><img class="pt-2 px-1" src="./images/ball.png" alt="ball"></a>
+    <a href="#home"><img class="pt-2 px-2" src="./images/ball.png" alt="ball"></a>
     <div class="container mx-auto">
     <div class="relative  inline-flex">
-     <button @click="open = !open" class="flex items-start "><img class="pt-1" src="@/images/arrow.png" alt="arrow"></button>
+     <button @click="open = !open" class="flex items-start "><img class="pt-1 pr-2" src="@/images/arrow.png" alt="arrow"></button>
   
      <div v-if="open" class="rounded-lg absolute mt-8 bg-blue-drop divider-y p-4 text-left grid grig-rows-2 -ml-24 divider-y">
      <a class="rounded-lg bg-blue-drop hover:bg-blue-droph p-2  text-white text-base " href="http://b.haxi666.vip">English</a>
@@ -59,7 +59,7 @@
     <div ref="rul" class="lg:pl-60 lg:pr-8 pl-4 bg-blue-back1 w-full inline-flex pb-4 pt-6"> 
 
       <img class="px-2" src="./images/bar.png" alt="bar">
-      <h4 class="font-bold lg:text-5xl text-3x1 text-white lg:px-2 ">Rules</h4>
+      <h4 class="font-bold lg:text-5xl text-3x1 lg:pt-0 pt-3 text-white lg:px-2 ">Rules</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 pl-4 ">/</h4>
       <img class="pl-1 pt-2" src="./images/RULES.png" alt="rules">
     </div>
@@ -132,7 +132,7 @@
      <div ref="process" class="lg:pl-64 pl-4 bg-blue-proc w-full inline-flex pb-4 pt-10 items-center"> 
 
       <img class="px-2" src="./images/bar.png" alt="bar">
-      <h4 class="font-bold text-5xl text-white lg:px-2 ">Process</h4>
+      <h4 class="font-bold lg:text-5xl lg:pt-0 pt-3 text-3x1 text-white lg:px-2 ">Process</h4>
       <h4 class="font-regular text-2xl text-blue-slash lg:pl-12 pl-4 ">/</h4>
       <p class="pl-1 pt-2 font-base text-base text-white">Process for the new hand</p>
  </div>
@@ -153,11 +153,7 @@
       <button @click="Tab = 'Transfer'" class="rounded-tl-lg text-white text-lg p-3 lg:p-8 bg-blue-buton1 hover:bg-blue-buton2 focus:bg-blue-buton2">3</button></div>
       <p class="text-center text-blue-tex lg:text-lg text-sm  lg:font-semibold px-1 lg:px-6">Transfer to the address</p>
       </div>
-      <div class="rounded-lg bg-blue-pross p-6 hover:bg-blue-pross1 focus:bg-blue-pross1 hover:shadow">
-      <div class="rounded-tl-lg text-white text-lg p-3 lg:p-8 text-center">
-      <button @click="Tab = 'Automatic'" class="rounded-tl-lg text-white text-lg p-3 lg:p-8 bg-blue-buton1 hover:bg-blue-buton2 focus:bg-blue-buton2">4</button></div>
-      <p class="text-center text-blue-tex lg:text-lg text-sm  lg:font-semibold px-1 lg:px-6">Automatic Comsation</p>
-      </div>
+     
       
 
       </div>
@@ -168,7 +164,7 @@
       <div ref="advan" class="lg:pl-64 pl-4 bg-blue-imb w-full inline-flex pb-4 pt-10"> 
 
       <img class="px-2" src="./images/bar.png" alt="bar">
-      <h4 class="font-bold lg:text-5xl text-3xl text-white lg:px-2 ">Adventure</h4>
+      <h4 class="font-bold lg:text-5xl text-3xl lg:pt-0 pt-3 text-white lg:px-2 ">Adventure</h4>
       <h4 class="font-regular text-5xl text-blue-slash lg:pl-12 lg:pl-4 pl-2">/</h4>
       <img class="pl-1 pt-2" src="./images/adven.png" alt="adven">
 
