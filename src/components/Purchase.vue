@@ -3,11 +3,11 @@
 
       <div class="grid lg:grid-cols-2 lg:grid-flow-row py-8 lg:pl-20 space-y-4 space-x-6">
       <div class="rounded-lg bg-blue-gri ">
-       <h4 class="text-white text-lg p-8">Register the Wallet</h4>
-       <p class="text-white text-base p-8 ">The data in a decentralized wallet is all data on the 
+       <h4 class="text-white text-lg px-8 py-3">Register the Wallet</h4>
+       <p class="text-purple-900 text-base px-8 py-3">The data in a decentralized wallet is all data on the 
        blockchain, while the data in a centralized wallet relies on the wallet service provider's own ledger</p>
        <h4 class="text-white text-lg pl-8">For example</h4>
-       <p class="text-white text-base pl-8 py-12 ">
+       <p class="text-red-900 text-base pl-8 py-12 ">
       Our wallet on the exchange is a centralized wallet. We transfer money to the address designated by the exchange, and then the exchange records our recharge record in its own ledger. After that, each recharge transfer is directly recorded on the exchange's ledger, and this whole process does not happen on the blockchain at all.
 So we need to register a decentralized wallet of our own
 <br>(3) The exchange will match the buy request/sell request, and if it meets the requirements, the transaction will be concluded.
